@@ -7,8 +7,8 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = ASUL.LINE()
-#cl.login(qr=True)
-cl.login(token='Em7MqmKwE6cSQFyv5AT8.6S7B6iV24SxpyyIZPkjUga.GTpFUxeFd9+ts0b9G6Z5xz+HD5h65yW7RCv6Ax/ZcnY=')
+cl.login(qr=True)
+#cl.login(token='Em7MqmKwE6cSQFyv5AT8.6S7B6iV24SxpyyIZPkjUga.GTpFUxeFd9+ts0b9G6Z5xz+HD5h65yW7RCv6Ax/ZcnY=')
 cl.loginResult()
 
 ki = ASUL.LINE()
