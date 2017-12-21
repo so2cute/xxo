@@ -7,18 +7,18 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = ASUL.LINE()
-cl.login(qr=True)
-#cl.login(token="=")
+#cl.login(qr=True)
+cl.login(token='Em7MqmKwE6cSQFyv5AT8.6S7B6iV24SxpyyIZPkjUga.GTpFUxeFd9+ts0b9G6Z5xz+HD5h65yW7RCv6Ax/ZcnY=')
 cl.loginResult()
 
 ki = ASUL.LINE()
-ki.login(qr=True)
-#ki.login(token=".KaptOybxCrifYDMnQKDtuq.myKbgnq75ijMnfqNzTgPBntdTWRYkSAGcVHGG8QdUeI=")
+#ki.login(qr=True)
+ki.login(token='Em7MqmKwE6cSQFyv5AT8.6S7B6iV24SxpyyIZPkjUga.GTpFUxeFd9+ts0b9G6Z5xz+HD5h65yW7RCv6Ax/ZcnY=')
 ki.loginResult()
 
 #ki2 = ASUL.LINE()
 #ki2.login(qr=True)
-#ki2.login(token=".AGDp9RAvVu74uEPb2dOObq.wfta/vi1XqkHd983LJ8o136RGMdMga18zToNmykkAHM=")
+#ki2.login(token='Env329hwvrFrKSqjyBE0.wO8FExqopCH2OtQ39ZGtqa.gAcIjbO4qZzlYCyS/FvOO12EkGAxDGXbJm1sXoriylQ=')
 #ki2.loginResult()
 
 #ki3 = ASUL.LINE()
